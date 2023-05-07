@@ -1,42 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link rel="stylesheet" href="./styles.css">
-</head>
-<body>
-  <section id="nav">
-    <nav>
-      <div class="row nav__container">
-        <div class="logo__wrapper">
-          <img class="logo__img" src="./assests/logo.svg" alt="Treact Logo">
-          <p class="logo__text">Treact</p>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section id="nav">
+      <nav>
+        <div class="row nav__container">
+          <a class="logo__wrapper" href="#">
+            <img class="logo__img" src="./assests/logo.svg" alt="Treact Logo" />
+            <p class="logo__text">Treact</p>
+          </a>
+          <ul class="nav__links">
+            <li>
+              <a href="" class="nav__link link__hover-effect">About</a>
+            </li>
+            <li>
+              <a href="" class="nav__link link__hover-effect">Blog</a>
+            </li>
+            <li>
+              <a href="" class="nav__link link__hover-effect">Pricing</a>
+            </li>
+            <li>
+              <a href="" class="nav__link link__hover-effect">Contact Us</a>
+            </li>
+            <li>
+              <a
+                href=""
+                class="nav__link nav__link--space link__hover-effect-login"
+                >Login</a
+              >
+            </li>
+            <li>
+              <a href="" class="nav__link nav__link--color nav__link--primary"
+                >Sign Up</a
+              >
+            </li>
+          </ul>
         </div>
-        <ul class="nav__links">
-          <li>
-            <a href="" class="nav__link link__hover-effect">About</a>
-          </li>
-          <li>
-            <a href="" class="nav__link link__hover-effect">Blog</a>
-          </li>
-          <li>
-            <a href="" class="nav__link link__hover-effect">Pricing</a>
-          </li>
-          <li>
-            <a href="" class="nav__link link__hover-effect">Contact Us</a>
-          </li>
-          <li>
-            <a href="" class="nav__link nav__link--space link__hover-effect-login">Login</a>
-          </li>
-          <li>
-            <a href="" class="nav__link nav__link--color nav__link--primary">Sign Up</a>
-          </li>
-        </ul>
+      </nav>
+    </section>
+
+    <section id="landing">
+      <div class="landing__container">
+        <div class="landing__description">
+        <h1 class="landing__tittle">
+          Beautiful React Templates
+          <span class="text--purple">for you.</span>
+        </h1>
+        <p class="landing__para">
+          Our templates are esay to setup, understand and customize. Fully
+          modular compnents witha variety of pages and components
+        </p>
+        <div class="landing__button--wrapper">
+          <input
+            class="input__email"
+            type="email"
+            placeholder="Your E-mail Address"/>
+            <a href=""><button class="landing__button">Get Started</button></a>
+          </div>
+          <h2 class="landing__customers"> OUR TRUSTED CUSTOMERS </h2>
+          <figure class="trusted-customers__wrapper">
+            <img class="trusted__img" src="./assests/trustedcustomers.png" alt="Trusted Customer Logos">
+          </figure>
+        </div>
+          <figure class="landing__img--wrapper">
+            <img class="landing__img" src="./assests/ladningimage.svg" alt="Lady Sitting at a desk in office environment">
+          </figure>
+        </div>
       </div>
-    </nav>
-  </section>
-</body>
+    </section>
+  </body>
 </html>
