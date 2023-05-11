@@ -209,15 +209,6 @@ FEATURES
 
 */
 
-.blob2 {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  opacity: 0.25;
-  width: 256px;
-  height: 600px;
-  transform: translate(125px, 1000px);
-}
 
 .features__container{
   padding: 80px 0;
@@ -299,4 +290,41 @@ FEATURES
 }
 
 
+/*
 
+WORK
+
+*/
+
+#work{
+  padding: 0 24px;
+}
+
+.work__description {
+  width: 50%;
+  margin-right: 36px;
+}
+
+.quality__work--title{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.work__title{
+  width: 100%;
+  font-size: 48px;
+  color: #243e63;
+  line-height: 1.25;
+  font-weight: 900;
+}
+
+.work__para{
+  margin-top: 16px;
+  color: #7c8ba1;
+  font-size: 16px;
+  line-height: 2;
+  font-weight: 500;
+}
