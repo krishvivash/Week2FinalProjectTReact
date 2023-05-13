@@ -120,7 +120,7 @@ LANDING
 
 .landing__container{
   display: flex;
-  padding: 0 24px;
+  padding: 0 32px;
 }
 
 .landing__description {
@@ -346,12 +346,13 @@ WORK
 
 .work__button{
   background-color: #6415ff;
-  margin-top: 32px;
+  margin-top: 2rem;
   padding: 1rem 36px;
   border-radius: 200px;
   border: none;
   color: #f7fafc;
   font-weight: bold;
+  cursor: pointer;
   
 }
 
@@ -367,3 +368,80 @@ WORK
   border: 1px solid rgb(225, 225, 225);
   border-radius: 4px;
 }
+
+
+/*
+
+STEPS
+
+*/
+
+#steps{
+  padding: 0 32px;
+}
+
+.steps__row{
+  display: flex;
+}
+
+.steps__img--wrapper{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.steps__img{
+  width: 100%;
+}
+
+.steps__description{
+  width: 50%;
+  padding-left: 32px;
+}
+
+.step{
+  display: flex;
+  margin-bottom: 32px;
+}
+
+.steps__text{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.steps__title{
+  width: 100%;
+  font-size: 48px;
+  color: #243e63;
+  line-height: 1.25;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.step__number{
+  font-size: 2.25rem;
+  font-weight: 600;
+  line-height: 1;
+  --tw-text-opacity: 1;
+  color: rgb(203 213 224 / var(--tw-text-opacity));
+  padding-right: 16px;
+}
+
+.step__title{
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1;
+  color: #243e63;
+  padding-bottom: 8px;
+}
+
+.step__para {
+  font-size: 14px;
+  color: #718096;
+  line-height: 2;
+  max-width: 300px;
+}
+
