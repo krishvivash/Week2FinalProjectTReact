@@ -338,7 +338,7 @@ WORK
 .work__para{
   margin-top: 16px;
   color: #7c8ba1;
-  font-size: 16px;
+  font-size: 18px;
   line-height: 2;
   font-weight: 560;
 }
@@ -443,5 +443,61 @@ STEPS
   color: #718096;
   line-height: 2;
   max-width: 300px;
+}
+
+
+/*
+
+VALUES
+
+*/
+
+#values{
+  padding: 0 32px;
+}
+
+.values__row{
+  display: flex;
+}
+
+.values__img--wrapper{
+  width: 50%;
+}
+
+.values__img{
+  width: 100%;
+}
+
+.values__descripiton{
+  width: 50%;
+}
+
+.values__text{
+  margin-bottom: 16px;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+}
+
+.values__title{
+  width: 100%;
+  font-size: 48px;
+  color: #243e63;
+  line-height: 1.25;
+  font-weight: 900;
+  margin-bottom: 32px;
+}
+
+.values__para{
+  margin-top: 16px;
+  color: #7c8ba1;
+  font-size: 18px;
+  line-height: 2;
+  font-weight: 560;
+}
+
+.values__section{
+  display: flex;
 }
 
