@@ -619,3 +619,121 @@ PRICING
   margin: 0 auto;
 }
 
+.plans{
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 56px;
+}
+
+.plan{
+  margin: 0 auto;
+  width: calc(90%/3);
+  max-width: 370px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.plan__header {
+  border: 1px solid rgb(223, 221, 221);
+  width: 90%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.plan__top--green {
+  position: absolute;
+  height: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 90%;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+}
+
+.plan__title {
+  font-size: 20px;
+  color: #1a202c;
+  margin-bottom: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.plan__price {
+  font-size: 48px;
+  color: #1a202c;
+  margin-top: 4px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.plan__duration {
+  color: #a0aec0;
+  font-size: 16px;
+  margin-top: 16px;
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 32px;
+  letter-spacing: 1px;
+}
+
+.plan__features {
+  border: 1px solid rgb(223, 221, 221);
+  width: 90%;
+  text-align: center;
+}
+
+.for__who {
+  font-size: 20px;
+  color: #1a202c;
+  text-align: center;
+  padding-top: 32px;
+}
+
+.plan__feature {
+  font-size: 16px;
+  color: #718096;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.plan__feature:last-child {
+  padding-bottom: 32px;
+}
+
+.plan__feature:last-child {
+  padding-bottom: 32px;
+}
+
+.plan__buy {
+  border: 1px solid rgb(223, 221, 221);
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  background-color: white;
+}
+
+.plan__button--green {
+  color: #f7fafc;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  background: linear-gradient(
+    115deg,
+    rgb(56, 178, 172) 0%,
+    rgb(129, 230, 217) 100%
+  );
+  padding: 16px 48px;
+  border: none;
+  border-radius: 9999px;
+}
+git a
