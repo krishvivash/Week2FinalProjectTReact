@@ -803,6 +803,23 @@ PRICING
   padding-top: 20px;
 }
 
+.plan__buy--blue {
+  border: 1px solid rgb(223, 221, 221);
+  border-color: rgb(102 126 234);
+  background-image: linear-gradient(
+    135deg,
+    rgb(76, 81, 191) 0%,
+    rgb(102, 126, 234) 100%
+  );
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 32px 0;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+}
+
 .plan__button--white {
   color: rgb(100 21 255);
   font-weight: bold;
@@ -816,4 +833,32 @@ PRICING
 
 .plan__feature--white:last-child {
   padding-bottom: 32px;
+}
+
+.plans__top--red {
+  position: absolute;
+  height: 8px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+  width: 90%;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+}
+
+.plan__button--red {
+  color: #f7fafc;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 14px;
+  background: linear-gradient(
+    115deg,
+    rgb(245, 101, 101) 0%,
+    rgb(254, 178, 178) 100%
+  );
+  padding: 16px 48px;
+  border: none;
+  border-radius: 9999px;
 }
