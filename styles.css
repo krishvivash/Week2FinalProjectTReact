@@ -862,3 +862,143 @@ PRICING
   border: none;
   border-radius: 9999px;
 }
+
+/*
+
+TESTIMONIALS
+
+*/
+
+#testimonials {
+  padding: 0 24px;
+}
+
+.testimonials__row{
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+}
+
+.testimonials__img--wrapper {
+  width: 50%;
+  display: flex;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonials__description {
+  width: 50%;
+  margin-left: 64px;
+}
+
+.testimonials__text {
+  margin-bottom: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: #742cff;
+  text-align: left;
+}
+
+.testimonials__title {
+  width: 100%;
+  font-size: 48px;
+  color: #243e63;
+  line-height: 1.25;
+  font-weight: 900;
+  margin-bottom: 32px;
+  text-align: center;
+  text-align: left;
+}
+
+.testimonials__para {
+  font-size: 1.125rem;
+  color: #7c8ba1;
+  text-align: left;
+  line-height: 1.625;
+  margin-bottom: 32px;
+}
+
+.testimonials__ratings {
+  color: rgb(246 173 85);
+  margin-bottom: 16px;
+}
+
+.testimonials__subtitle {
+  font-size: 20px;
+  color: #243e63;
+  margin-bottom: 16px;
+  font-weight: bold;
+}
+
+.testimonials__subtitle--para {
+  font-size: 16px;
+  color: #4a4468;
+  margin-bottom: 40px;
+  line-height: 1.625;
+  font-weight: 500;
+}
+
+.testimonials__picture--mask {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.testimonials__picture {
+  width: 100%;
+}
+
+.review__container {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.review__wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.review__arrows {
+  display: flex;
+  align-items: center;
+}
+
+.review__wrapper--text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.review__name {
+  margin-left: 24px;
+  font-size: 20px;
+  color: #243e63;
+  font-weight: bold;
+}
+
+.review__institue {
+  margin-left: 24px;
+  font-size: 16px;
+  color: #7c8ba1;
+}
+
+.review__arrow {
+  padding: 16px;
+  border-radius: 9999px;
+  margin: 0 12px;
+  background-color: #e0e9f2;
+  height: 50px;
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  color: #6415ff;
+  transition: all 300ms ease;
+}
+
