@@ -1132,3 +1132,49 @@ footer {
 }
 
 
+/*
+
+RESPONSIVNESS
+
+*/
+
+@media (max-width: 728px){
+  .landing__container{
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav__links{
+    display: none;
+  }
+
+  .landing__description {
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+  }
+
+  .landing__para{
+    text-align: center;
+  }
+
+  .landing__tittle{
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .trusted__img {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .landing__customers{
+    align-items: center;
+  }
+
+  .landing__img--wrapper {
+    margin-top: 40px;
+    width: 70%;
+  }
+}
